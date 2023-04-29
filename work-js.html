@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
+  <body>
+    <p><a href="index.html">Go back</a></p>
+    <form class="user-form">
+      <label>
+        Name
+        <input type="name" name="name" />
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Age
+        <input type="age" name="age" />
+      </label>
+      <button type="submit">Add User</button>
+    </form>
+    <h1>Users-table</h1>
+    <table id="users-table" class="user-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Functions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script src="js/userTable.js" type="module"></script>
+  </body>
+</html>
